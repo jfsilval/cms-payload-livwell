@@ -39,23 +39,15 @@ export const Products: CollectionConfig = {
       defaultValue: true,
     },
     {
-      name: 'formas',
-      type: 'array',
-      label: 'Formas Farmacéuticas',
-      fields: [
-        {
-          name: 'forma_farmaceutica',
-          type: 'text',
-          required: true,
-          label: 'Forma Farmacéutica',
-        },
-        {
-          name: 'concentraciones',
-          type: 'text',
-          required: true,
-          label: 'Concentraciones',
-        },
-      ],
+      name: 'forma_farmaceutica',
+      type: 'text',
+      label: 'Forma Farmacéutica',
+    },
+    {
+      name: 'concentraciones',
+      type: 'text',
+      label: 'Concentraciones',
     },
   ],
 }
+
