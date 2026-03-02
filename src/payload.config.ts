@@ -24,7 +24,6 @@ const dirname = path.dirname(filename)
 export default buildConfig({
   admin: {
     theme: 'light',
-    css: path.resolve(dirname, './app/(payload)/custom.scss'),
     components: {
       beforeLogin: ['@/components/BeforeLogin'],
       beforeDashboard: ['@/components/BeforeDashboard'],
