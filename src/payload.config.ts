@@ -66,7 +66,7 @@ export default buildConfig({
     },
   }),
   collections: [Pages, Posts, Media, Categories, Users, Products],
-  cors: [getServerSideURL()].filter(Boolean),
+  cors: [getServerSideURL(),process.env.FRONTEND_URL,].filter(Boolean),
   plugins: [
     ...plugins,
     vercelBlobStorage({
