@@ -15,15 +15,15 @@ export const Logo = (props: Props) => {
 
   return (
     /* eslint-disable @next/next/no-img-element */
-    <img
-      alt="Liv Well"
-      width={160}
-      height={44}
-      loading={loading}
-      fetchPriority={priority}
-      decoding="async"
-      className={clsx('max-w-[10rem] w-full h-[44px] object-contain', className)}
-      src="/logo.png"
-    />
+   <img
+  alt="Liv Well"
+  width={220}
+  height={50}
+  loading={loading}
+  fetchPriority={priority}
+  decoding="async"
+  className={clsx('max-w-[13.75rem] w-full h-[50px] object-contain', className)}
+  src="/logo.png"
+/>
   )
 }
