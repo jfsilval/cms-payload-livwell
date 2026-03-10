@@ -79,6 +79,14 @@ export default buildConfig({
   ],
   globals: [Header, Footer],
   secret: process.env.PAYLOAD_SECRET,
+  localization: {
+    locales: [
+      { label: 'English', code: 'en' },
+      { label: 'Español', code: 'es' },
+    ],
+    defaultLocale: 'en',
+    fallback: true,
+  },
   sharp,
   typescript: {
     outputFile: path.resolve(dirname, 'payload-types.ts'),
