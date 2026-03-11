@@ -1,5 +1,6 @@
 import * as migration_20260213_172621_initial from './20260213_172621_initial'
 import * as migration_20260302_181531 from './20260302_181531'
+import * as migration_20260310_000001_add_localization from './20260310_000001_add_localization'
 
 export const migrations = [
   {
@@ -12,5 +13,11 @@ export const migrations = [
     down: migration_20260302_181531.down,
     name: '20260302_181531',
   },
+  {
+    up: migration_20260310_000001_add_localization.up,
+    down: migration_20260310_000001_add_localization.down,
+    name: '20260310_000001_add_localization',
+  },
 ]
+
 
