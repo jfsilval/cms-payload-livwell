@@ -18,7 +18,7 @@ export const Products: CollectionConfig = {
       type: 'text',
       required: true,
       label: 'Nombre del Producto',
-      // NO localized — nombre INN es universal
+      localized: true, 
     },
     {
       name: 'categoria',
