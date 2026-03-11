@@ -5,6 +5,7 @@ import * as migration_20260310_000002_add_posts_meta_locales from './20260310_00
 import * as migration_20260310_000003_add_categories_locale from './20260310_000003_add_categories_locale'
 import * as migration_20260310_000004_add_pages_locales from './20260310_000004_add_pages_locales'
 import * as migration_20260310_000005_add_versions_columns from './20260310_000005_add_versions_columns'
+import * as migration_20260310_000006_add_forms_search_locales from './20260310_000006_add_forms_search_locales'
 
 
 export const migrations = [
@@ -15,6 +16,7 @@ export const migrations = [
   { up: migration_20260310_000003_add_categories_locale.up, down: migration_20260310_000003_add_categories_locale.down, name: '20260310_000003_add_categories_locale' },
   { up: migration_20260310_000004_add_pages_locales.up, down: migration_20260310_000004_add_pages_locales.down, name: '20260310_000004_add_pages_locales' },
   { up: migration_20260310_000005_add_versions_columns.up, down: migration_20260310_000005_add_versions_columns.down, name: '20260310_000005_add_versions_columns' },
+  { up: migration_20260310_000006_add_forms_search_locales.up, down: migration_20260310_000006_add_forms_search_locales.down, name: '20260310_000006_add_forms_search_locales' },
 ]
 
 
