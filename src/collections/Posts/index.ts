@@ -57,7 +57,7 @@ export const Posts: CollectionConfig<'posts'> = {
         collection: 'posts',
         req,
       }),
-    useAsTitle: 'title',
+    useAsTitle: 'slug',
   },
   fields: [
     {
